@@ -1,0 +1,707 @@
+{
+	"info": {
+		"_postman_id": "15638930-dfbb-44c3-9aeb-5834cd2060d2",
+		"name": "mediabar_actions_call",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7297312"
+	},
+	"item": [
+		{
+			"name": "agent state",
+			"item": [
+				{
+					"name": "agent_state_LOGGED_OUT_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_state_LOGGED_OUT_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_state_LOGGED_OUT_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_state_show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_state_show",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_state_show"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_state_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_state_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_state_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_state_time_30000_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_state_time_30000_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_state_time_30000_update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "agent_channels",
+			"item": [
+				{
+					"name": "agent_channels_one_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_channels_one_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_channels_one_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_channels_control",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_channels_control",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_channels_control"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_channels_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_channels_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_channels_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_channels_show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_channels_show",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_channels_show"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_channels_three_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_channels_three_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_channels_three_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_channels_two_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_channels_two_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_channels_two_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agent_channels_four_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/agent_channels_four_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"agent_channels_four_update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "test_batch",
+			"item": [
+				{
+					"name": "test_conf_1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/test/conf_1",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"test",
+								"conf_1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "work_list",
+			"item": [
+				{
+					"name": "work_list_show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_list_show",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_list_show"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_list_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_list_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_list_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_list_no_timer_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_list_no_timer_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_list_no_timer_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_list_hide_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_list_hide_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_list_hide_update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "work item",
+			"item": [
+				{
+					"name": "work_item_1_transferred_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_transferred_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_transferred_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_1_transferred_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_transferred_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_transferred_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_transferred_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_transferred_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_transferred_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_transferred_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_transferred_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_transferred_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_1_disconnected_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_disconnected_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_disconnected_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_1_disconnected_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_disconnected_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_disconnected_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_disconnected_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_disconnected_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_disconnected_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_disconnected_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_disconnected_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_disconnected_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_1_opened_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_opened_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_opened_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_opened_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_opened_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_opened_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_1_opened_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_opened_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_opened_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_opened_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_opened_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_opened_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_1_current_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_current_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_current_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_current_true_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_current_true_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_current_true_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_1_current_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_1_current_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_1_current_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_2_current_false_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_2_current_false_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_2_current_false_update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_accepted",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_accepted",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_accepted"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_info_show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_info_show",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_info_show"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "work_item_history_show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/work_item_history_show",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"work_item_history_show"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "voice media interaction",
+			"item": [
+				{
+					"name": "voice_media_interaction_show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/voice_media_interaction_show",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"voice_media_interaction_show"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "voice_media_interaction_update",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_rul}}/api/voice_media_interaction_update",
+							"host": [
+								"{{base_rul}}"
+							],
+							"path": [
+								"api",
+								"voice_media_interaction_update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

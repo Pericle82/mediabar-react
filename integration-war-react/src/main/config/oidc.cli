@@ -1,0 +1,2 @@
+/subsystem=keycloak/secure-deployment=channelbar.war:add(realm=${hub.oidc.realm,env.OIDC_REALM:cognitive}, resource=${hub.oidc.resource,env.OIDC_RESOURCE:hub}, auth-server-url=${hub.oidc.auth-server-url,env.OIDC_AUTH-SERVER-URL:http://localhost:8180/auth}, ssl-required=EXTERNAL, use-resource-role-mappings=true)
+/subsystem=keycloak/secure-deployment=channelbar.war/credential=secret:add(value=${hub.oidc.credential.secret,env.OIDC_CREDENTIAL_SECRET:secret})
